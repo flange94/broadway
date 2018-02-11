@@ -4,12 +4,6 @@ body {
   font-family: Helvetica;
 }
 
-/*Adding the background image to the header section and headline of "Designed in NY" */
-#header,
-#design_ny_head {
-  background-image: url("../images/the-flatiron-building.png");
-}
-
 h1 {
   font-size: 70px;
   font-weight: bold;
@@ -23,6 +17,20 @@ h2 {
 h3 {
   font-size: 23px;
   font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+/*Adding the background image to the header section and headline of "Designed in NY" */
+#header,
+#design_ny_head {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+#header a {
+  font-size: 18px;
 }
 
 /*Styling the Footer section */
