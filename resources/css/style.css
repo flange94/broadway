@@ -1,7 +1,44 @@
+/* Align every text in the middle and giving each text the font Helvetica */
 body {
   text-align: center;
+  font-family: Helvetica;
 }
 
+/*Adding the background image to the header section and headline of "Designed in NY" */
+#header,
+#design_ny_head {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/*Styling the Footer section */
 #footer {
+  background: dimgray;
   text-align: left;
+}
+
+
+a,
+h1,
+#design_ny_head,
+#footer {
+    color: white;
+}
+
+#copyright {
+  font-size: 11px;
 }
